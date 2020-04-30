@@ -6,15 +6,19 @@
   <style>
 
 head{
-  background-color: rgb(26, 53, 91)
+  background-color: rgb(26, 53, 91);
 }
 body{
   background-color: rgb(26, 53, 91)
 }
-h1{
+.header a{
       font-family: 'Chathura';
   text-alignment: center;
   color: #fabe12;
+  text-decoration: none;
+}
+.header a:hover{
+  color: rgb(255, 132, 145)
 }
 
 body{
@@ -70,12 +74,17 @@ a:hover{color: #BFFFF5
 .web{
   background-color: rgb(110,15,15);
 }
-
+.done{
+  color: rgb(255, 132, 145)
+}
 </style>
 	<head>
     <title>HBL 2020</title>
-    <font size = "8"><center><h1>Home Based Learning</h1></center>
-	</head></font>
+    <div class='header'>
+    <font size = "8"><center><h1><a href ='https://github.com/tartyao/HBL2020'>Home Based Learning</a></h1></center>
+    </div>
+  </head></font>
+
   <body>
     <div class = 'navbar'>
       <a class = 'active' href = 'index.html'>Home Page</a>
@@ -92,8 +101,8 @@ a:hover{color: #BFFFF5
       </tr>
       <tr>
         <td><ol>
-          <li>Data Science for Everyone</li>
-          <li>Machine Learning for Everyone</li>
+          <li><z class='done'>Data Science for Everyone</z></li>
+          <li><z class='done'>Machine Learning for Everyone</z></li>
           <li>Introduction to Python</li>
           <li>Web Scraping in Python</li>
         </ol></td>
@@ -104,5 +113,9 @@ a:hover{color: #BFFFF5
         </td>
       </tr>
     </table></center>
+    <center>
+      <
+      <p><z class='done'>◼Done</z> ◼Not Done</p>
+    </center>
 </body>
 </html>
