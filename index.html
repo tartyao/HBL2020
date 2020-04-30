@@ -27,24 +27,82 @@ a{color: #00CAAA
 a:hover{color: #BFFFF5
 }
 
+  .navbar{
+    background-color: #555;
+    width: 100%;
+    overflow: auto
+  }
+  .navbar a{
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Karla';
+    text-decoration: none;
+  }
+  .active {
+    background-color: #4CAF50;
+  }
+  .navbar a:hover{ 
+    background-color: #000
+  }
+  td, th{
+    padding: 10px;
+    font-family: Karla;
+    width: 400px;
+    text-align: center;
+  }
+  th{
+    background-color: #305FA1;
+  }
+  td{
+    background-color: rgb(166,166,166)
+  }
+  ol{
+       display: inline-block;
+       margin-left: auto;
+       margin-right: auto;
+    }  
+  li{
+    text-align:left;
+  }
+
+.web{
+  background-color: rgb(110,15,15);
+}
 
 </style>
 	<head>
     <title>HBL 2020</title>
     <font size = "8"><center><h1>Home Based Learning</h1></center>
 	</head></font>
-  <center><body>
-    
-    <p> Datacamp - <a href="https://www.datacamp.com/statement-of-accomplishment/course/17b3bc6022cabc9a8add0172c0f5895f3d7dc3e0">Data Science for Everyone </a> </p></>
-
-    <p> Datacamp - <a href="https://www.datacamp.com/statement-of-accomplishment/course/1ebc00f378341ec4a261f2cf14776681d4ee00ac">Machine Learning for Everyone </a> </p>
-
-    <p> Datacamp - Introduction to Python </p>
-    
-    <p> Datacamp - Web Scraping in Python </p>
-
-    <p> Codecademy - Introduction to HTML </p>
-    
-
-</body></center>
+  <body>
+    <div class = 'navbar'>
+      <a class = 'active' href = 'index.html'>Home Page</a>
+      <a href = 'datacamp.html'>Datacamp</a>
+      <a href = 'codecademy.html'>Codecademy</a>
+    </div>
+    <center><table>
+      <tr>
+        <th colspan='2'>What I plan to do during HBL</th>
+      </tr>
+      <tr>
+        <td class='web'>Datacamp</td>
+        <td class='web'>Codecademy</td>
+      </tr>
+      <tr>
+        <td><ol>
+          <li>Data Science for Everyone</li>
+          <li>Machine Learning for Everyone</li>
+          <li>Introduction to Python</li>
+          <li>Web Scraping in Python</li>
+        </ol></td>
+        <td>
+          <ol>
+            <li>Introduction to HTML</li>
+          </ol>
+        </td>
+      </tr>
+    </table></center>
+</body>
 </html>
